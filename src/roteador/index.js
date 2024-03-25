@@ -17,6 +17,15 @@ const rotas = [{
         path: '/cadastro',
         name: 'CadastrarLogin',
         component: () => import('@/components/CadastrarLogin.vue') 
+    },
+    {
+        path: '/produto',
+        name: 'ProdutosCadastrados',
+        component:() => import('@/components/ProdutosCadastrados.vue'),
+        // {
+            // default: () => import('@/components/ProdutosCadastrados.vue'),
+            // menu: () => import('@/components/MenuLateral.vue') 
+        // } 
     }
 ]
 
